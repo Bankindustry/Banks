@@ -4,7 +4,7 @@ metadata:
   name: accounts-api-pdb
   namespace: banking-prod
 spec:
-  minAvailable: 20
+  minAvailable: 25
   selector:
     matchLabels: { app: accounts-api }
 
